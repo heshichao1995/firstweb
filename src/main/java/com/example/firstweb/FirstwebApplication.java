@@ -12,6 +12,9 @@ import org.springframework.context.annotation.Bean;
 @SpringBootApplication
 public class FirstwebApplication {
 
+	
+	
+	//bean数量
 	@Autowired
 	ApplicationContext context;
 	@Bean ApplicationRunner runner() {
